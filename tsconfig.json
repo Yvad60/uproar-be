@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "target": "es2018",
-    "module": "commonjs",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "outDir": "dist"
   },
   "exclude": ["node_modules"],
-  "strict": true
+  "strict": true,
+  "esModuleInterop": true
 }
