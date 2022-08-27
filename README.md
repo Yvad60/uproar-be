@@ -43,3 +43,34 @@ Clone the project repo
 ```
 git clone https://github.com/Yvad60/uproar-be.git
 ```
+
+This project uses [pnpm](https://pnpm.io/) so you may need to get it first
+
+```
+npm i -g pnpm
+```
+
+Install project dependencies
+
+```
+pnpm install
+```
+
+Start the application
+
+```
+pnpm dev
+```
+
+the project will be started and accessible from `http://localhost:5000/`
+
+## Available commands
+
+- **start**: starting application in development environment
+- **build**: building TypeSript files into JavaScript
+- **lint**: running ESLint to detect error in the codebase
+- **lint:fix**: find end auto-fix ESLint errors
+- **test**: running test with Jest (coverage included)
+- **format:check**: check for code format mistakes with Prettier
+- **format:write**: find and fix Prettier format errors
+- **prepare**: installing husky which will control git precommit hooks
