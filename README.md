@@ -26,11 +26,11 @@ Uproar is a personal To-Do application for managing tasks, track progress and im
 Uproar is mainly built using
 
 - **TypeScript**: used as the programming language
-- **Node Js**: used as the backend environement
+- **Node Js**: used as the backend environment
 - **Express Js**: web framework for Node.js
-- **PostgreSQL**: used as atabase
-- **Sequelize**: ORM for data
-- **Jasmine**: Testing Framework
+- **PostgreSQL**: used as the database to share data across the app
+- **Sequelize**: ORM for interacting with the database
+- **Jest and Supertest**: Testing Framework
 - **Jira**: Project management system
 - **Jenkins**: The CI/ CD system
 
