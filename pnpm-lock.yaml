@@ -4455,7 +4455,7 @@ packages:
       '@jest/types': ^28.0.0
       babel-jest: ^28.0.0
       esbuild: '*'
-      jest: ^28.0.0
+      jest: ^28.0.0 || 29
       typescript: '>=4.3'
     peerDependenciesMeta:
       '@babel/core':
